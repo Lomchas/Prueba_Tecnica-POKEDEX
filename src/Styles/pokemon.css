@@ -1,0 +1,372 @@
+.container-PokeCards {
+  width: 100%;
+  height: 100%;
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card-item {
+  width: 20%;
+  min-width: 200px;
+  background: rgba(249, 249, 249, 0.321);
+  box-shadow: 1px 0px 9px rgba(0, 0, 0, 0.534);
+  border-radius: 15px 15px 30% 30%;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.card-item:hover {
+  box-shadow: 2px 0px 12px white;
+  transform: scale(1.1);
+}
+
+.card-img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 3rem 0;
+}
+
+.card-img img {
+  width: 70%;
+  -webkit-filter: drop-shadow(0px 20px 20px black);
+  filter: drop-shadow(0px 20px 20px black);
+}
+
+.card-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0 0.5rem;
+  background-color: #065695;
+  border: 5px solid white;
+  border-radius: 5px 5px 30% 30%;
+  box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.564);
+}
+
+.poke-name {
+  padding: 1rem 0 0 0;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.432);
+}
+
+.container-skills {
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.container-place {
+  width: 100%;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.container-place button {
+  padding: 0.3rem;
+  border: 1px solid gold;
+  color: gold;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.432);
+  transition: all 0.5s;
+}
+
+.container-place .icon-skills {
+  font-size: 18px;
+}
+
+.container-place button:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.744);
+}
+
+.container-place button:focus {
+  transform: scale(0.9);
+  color: white;
+  background-color: gold;
+  border: 1px solid white;
+}
+
+.container-place p {
+  background-color: rgb(229, 31, 31);
+  width: 35px;
+  height: 30px;
+  text-align: center;
+  margin: 0;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  font-family: cursive;
+  font-weight: bold;
+  color: white;
+}
+
+.container-peso {
+  width: 100%;
+  text-align: center;
+}
+
+.container-peso p {
+  font-family: cursive;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 0;
+  color: rgb(46, 46, 46);
+}
+
+.container-types {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-types .type {
+  font-family: cursive;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.432);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1px 2px;
+  background-color: white;
+  color: black;
+  margin: 0;
+}
+
+.container-types .tierra {
+  color: rgba(124, 34, 4, 0.852);
+}
+
+.container-types .poison {
+  color: rgb(16, 189, 16);
+}
+
+.container-types .fire {
+  color: rgb(255, 63, 5);
+  text-shadow: 2px 2px 3px rgba(220, 99, 0, 0.808);
+}
+
+.container-types .fly {
+  color: rgb(44, 117, 200);
+  text-shadow: 2px 2px 3px rgba(76, 76, 221, 0.92);
+}
+
+.container-types .water {
+  color: rgb(24, 24, 255);
+  text-shadow: 2px 2px 3px rgba(0, 0, 255, 0.781);
+}
+.container-types .bug {
+  color: rgb(133, 205, 25);
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 128, 0, 0.32);
+}
+.container-types .normal {
+  color: sandybrown;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+}
+
+.container-types .electric {
+  color: #097ed8;
+  text-shadow: 2px 2px 5px rgba(78, 203, 235, 0.678);
+}
+
+.container-skills h6 {
+  text-align: center;
+  font-family: cursive;
+  transition: all 1s;
+  color: white;
+  font-size: calc(1rem + 1vw);
+}
+
+.container-skills h6:active {
+  transform: rotate(360deg);
+  animation: spin 2.5s ease-in-out;
+  -webkit-animation: spin 2.5s ease-in-out;
+  -moz-animation: spin 2.5s ease-in-out;
+}
+
+.container-skills label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-skills label p {
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+  font-size: calc(0.5rem + 1vw);
+}
+
+.progress {
+  width: 80%;
+}
+
+.hp-progress .progress-bar {
+  background-color: rgb(38, 207, 38);
+  text-transform: uppercase;
+  font-family: cursive;
+}
+
+.attack-progress .progress-bar {
+  background-color: rgba(227, 0, 0, 0.812);
+  text-transform: uppercase;
+  font-family: cursive;
+}
+
+.defense-progress .progress-bar {
+  background-color: rgba(4, 109, 229, 0.812);
+  text-transform: uppercase;
+  font-family: cursive;
+}
+.speAttack-progress .progress-bar {
+  background-color: rgb(255, 78, 8);
+  text-transform: uppercase;
+  font-family: cursive;
+}
+.speDefense-progress .progress-bar {
+  background-color: rgb(208, 240, 27);
+  text-transform: uppercase;
+  font-family: cursive;
+}
+
+/* ---------- Detalle Card ----------- */
+
+.Container-detalle {
+  width: 100%;
+  height: 100%;
+  background: #ff9605;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  transition: all 1s;
+}
+
+.item-detalle {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+
+
+.item-detalle h2{
+    width: 100%;
+    padding: .5rem;
+    text-align: center;
+    font-size: calc(4rem + 1vw);
+    color: white;
+}
+
+.image-item {
+  border-radius: 70px;
+  background: rgba(255, 255, 255, 0.281);
+  width: 20%;
+  min-width: 200px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+
+.Container-abilities {
+  background: white;
+  width: 100%;
+  transition: all 1s;
+}
+
+.Container-abilities table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  transition: all 1s;
+}
+
+.Container-abilities table th {
+  text-align: center;
+  width: 100%;
+  border: 1px solid black;
+  padding: 0.5rem;
+  transition: all 1s;
+  font-size: calc(1rem + 1vw);
+}
+
+.Container-abilities table tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  transition: all 1s;
+}
+
+.Container-abilities table td:first-child {
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 1s;
+}
+
+.Container-abilities table tr td {
+  width: 33.3%;
+  text-align: center;
+  border: 1px solid black;
+  padding: 0.5rem;
+  transition: all 1s;
+}
+
+
+.container-atras{
+    width: 100%;
+    height: 40px;
+    font-size: calc(1rem + 1vw);
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container-atras .atras{
+    height: 100%;
+    border-radius: 50px;
+}
+
+.container-atras .atras:hover{
+    background: rgba(0, 0, 0, 0.432);
+}
+
+
