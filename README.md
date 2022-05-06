@@ -46,3 +46,50 @@ Below we briefly describe how it was implemented and its use in the application:
  from the terminal of your project with the command `npm install` or `npm i`***
 
 ### Deployment ✈
+
+Site Url: [https://bejewelled-paprenjak-db7bad.netlify.app]
+
+### Site Preview 👁
+
+
+- User Login 🔐
+---
+![img](https://user-images.githubusercontent.com/89220592/167050118-004c2b38-4e58-40da-99a7-d5d820e17cbc.png)
+
+- User Registration 🔐
+---
+![img1](https://user-images.githubusercontent.com/89220592/167050190-bc25a633-8b91-4b57-b1e0-ed0dffa41d1a.png)
+
+- Start of the App or Home 🏠
+---
+![img2](https://user-images.githubusercontent.com/89220592/167050225-f0c7fdb0-5c52-4981-8b61-39c0fdd9d14a.png)
+
+- Detail of each card 🃏
+---
+![img3](https://user-images.githubusercontent.com/89220592/167050261-e9a2ed53-3491-4b7e-b2ef-c296032f9975.png)
+
+- Mobile version 📱
+---
+![img4](https://user-images.githubusercontent.com/89220592/167050298-952cc3af-a2dd-4e46-92ff-b9dca3333493.png)
+
+
+### Code Preview or Work-Place ⚙
+
+![img5](https://user-images.githubusercontent.com/89220592/167050649-e68cf530-7081-4928-983b-f70800099ca7.png)
+
+
+### Dependency packages or `Package.json` ⚙
+
+![img6](https://user-images.githubusercontent.com/89220592/167050872-4204ea52-1593-4c62-bff5-09b11c71ec4c.png)
+
+
+### Creator and developer 👨‍🚀
+Daniel Losada
+- GitHub: [https://github.com/Lomchas] 📍
+- LinkedIn: [https://www.linkedin.com/in/daniel-losada-194673186/] 📍
+- Instagram: [https://www.instagram.com/daniilosa_/] 📍
+
+# Geek Academy ❤ [https://academiageek.co] 📍
+# Makaia ❤ [https://makaia.org] 📍
+
+***Training web developers for employment*** ✨✨
